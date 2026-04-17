@@ -1,0 +1,27 @@
+# ── LaTeX build artefacts ──────────────────────────────────────────────────────
+latex/*.aux
+latex/*.bbl
+latex/*.blg
+latex/*.fdb_latexmk
+latex/*.fls
+latex/*.lof
+latex/*.log
+latex/*.lot
+latex/*.out
+latex/*.synctex.gz
+latex/*.toc
+latex/*.pdf
+
+# ── R artefacts ────────────────────────────────────────────────────────────────
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Keep the output folder tracked but ignore generated files inside it
+R/output/*.png
+R/output/*.pdf
+
+# ── OS artefacts ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

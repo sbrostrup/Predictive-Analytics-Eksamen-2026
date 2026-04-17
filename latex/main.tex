@@ -1,0 +1,88 @@
+\documentclass[12pt, a4paper]{article}
+
+% ── Encoding & language ────────────────────────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[danish]{babel}   % change to [english] if preferred
+
+% ── Math & figures ─────────────────────────────────────────────────────────────
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+
+% ── Tables ─────────────────────────────────────────────────────────────────────
+\usepackage{booktabs}
+\usepackage{longtable}
+
+% ── Code listings ──────────────────────────────────────────────────────────────
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{orange}
+}
+
+% ── Hyperlinks ─────────────────────────────────────────────────────────────────
+\usepackage[hidelinks]{hyperref}
+
+% ── Bibliography ───────────────────────────────────────────────────────────────
+\usepackage{natbib}
+
+% ── Page layout ────────────────────────────────────────────────────────────────
+\usepackage[margin=2.5cm]{geometry}
+
+% ── Title information ──────────────────────────────────────────────────────────
+\title{Predictive Analytics\\[0.5em]\large Eksamen 2026}
+\author{Navn}
+\date{\today}
+
+% ═══════════════════════════════════════════════════════════════════════════════
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% ── 1. Introduktion ────────────────────────────────────────────────────────────
+\section{Introduktion}
+Skriv introduktion her.
+
+% ── 2. Data ────────────────────────────────────────────────────────────────────
+\section{Data}
+Beskriv datasættet her.
+
+% ── 3. Metode ──────────────────────────────────────────────────────────────────
+\section{Metode}
+Beskriv metoder og modeller her.
+
+% ── 4. Resultater ──────────────────────────────────────────────────────────────
+\section{Resultater}
+Præsenter resultater her.
+
+\subsection{Model-sammenligning}
+Indsæt tabeller og figurer, f.eks.:
+
+\begin{figure}[H]
+  \centering
+  % \includegraphics[width=0.8\linewidth]{../R/output/plot.pdf}
+  \caption{Eksempel på figur genereret i R.}
+  \label{fig:example}
+\end{figure}
+
+% ── 5. Diskussion ──────────────────────────────────────────────────────────────
+\section{Diskussion}
+Diskuter resultater her.
+
+% ── 6. Konklusion ──────────────────────────────────────────────────────────────
+\section{Konklusion}
+Konkluder her.
+
+% ── Litteratur ─────────────────────────────────────────────────────────────────
+\bibliographystyle{apalike}
+% \bibliography{references}
+
+\end{document}
