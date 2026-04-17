@@ -4,7 +4,7 @@
 
 # ── 0. Packages ────────────────────────────────────────────────────────────────
 # Install missing packages automatically
-required_packages <- c("tidyverse", "caret", "ggplot2", "corrplot", "MASS")
+required_packages <- c("tidyverse", "caret", "corrplot", "MASS")
 new_packages <- required_packages[!(required_packages %in% installed.packages()[, "Package"])]
 if (length(new_packages)) install.packages(new_packages)
 
